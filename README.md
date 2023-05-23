@@ -1,2 +1,2 @@
 # portfolio-kelvin
-Portfolio layout for Kelvin from Figma.
+Adaptive portfolio layout for Kelvin from Figma.
