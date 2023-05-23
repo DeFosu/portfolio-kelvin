@@ -1,0 +1,27 @@
+.contact{
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact__text{
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+
+    .social-text{
+        color: $font-color-hover;
+    }
+
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 61px;
+}

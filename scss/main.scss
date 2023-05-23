@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+@import "./component/vars";
+
+.container{
+    width: 100%;
+    max-width: 1250px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+a{
+    font-style: bold;
+    transition: 0.3s;
+
+    &:hover{
+        font-style: normal;
+        color: $font-color-hover;
+    }
+
+}
+
+.section-title{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.btn-link{
+    a{
+        font-size: 18px;
+        background-color: $font-color;
+        padding: 9px 23px;
+        border-radius: 30px;
+        color: white;
+    }
+}
+@import "./component/_header";
+@import "./component/_skills";
+@import "./component/_portfolio";
+@import "./component/_contacts";
+

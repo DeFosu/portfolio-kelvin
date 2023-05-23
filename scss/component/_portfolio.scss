@@ -1,0 +1,26 @@
+.portfolio{
+    background-color: $bg-color;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 90px;
+
+
+    }
+
+    .section-title{
+        padding-bottom: 70px;
+    }
+}
+
+.portfolio-item{
+
+    .portfolio-item__text{
+        text-decoration-line: underline;
+        padding-top: 40px;
+    }
+}
